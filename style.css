@@ -17,26 +17,18 @@ body {
 }
 
 .side-bar{
-    /* background-color: aqua; */
+    background-color: aqua;
     grid-column: 1/2;
     grid-row: 1/6;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(22, 1fr);
 }
-
-.logo {
-    background-color: deepskyblue;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-}
-
-.branches {
-    background-color: bisque;
-}
-
+ /* Need to add content to the side bar,
+    I think everything is divided good enough,
+    now just need to add all the pics and text
+     and position it using grid */
+     
 .main-content{
     background-color: red;
     grid-column: 2/5;

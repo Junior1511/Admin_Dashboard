@@ -57,6 +57,26 @@ body {
     grid-column: 16/18;
 }
 
+.bottom-header {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.profile-bottom {
+    border-radius: 50px;
+}
+
+.button {
+    border: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
 
 /* Side bar creation and adjustments */
 .side-bar {

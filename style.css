@@ -296,6 +296,9 @@ body {
     border-radius: 4%;
 }
 
+hr {
+    margin: 10px 0
+}
 .trending {
     background-color: white;
     padding: 40px;

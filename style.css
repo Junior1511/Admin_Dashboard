@@ -267,10 +267,38 @@ body {
 }
 
 .projects {
-    background-color: white;
+    background: linear-gradient(
+        to right,
+        #2A9D8F,
+        #2A9D8F 2%,
+        white 2%,
+        white 100%
+    );
     border-radius: 3% 3%;
     padding: 20px;
 }
+
+.icon-container {
+ display: grid;
+ grid-template-columns: repeat(8, 1fr);
+}
+
+.heart{
+    height: 50px;
+    fill: red;
+    grid-column: 6;
+}
+
+.eye{
+    height: 50px;
+    fill: purple;
+}
+
+.share{
+    height: 50px;
+    fill: rgb(20, 118, 230);
+}
+
 
 .main-right {
     display: grid;
